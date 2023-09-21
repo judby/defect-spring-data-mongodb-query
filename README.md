@@ -32,3 +32,4 @@ java.lang.ClassCastException: class org.bson.Document cannot be cast to class ja
 
 https://github.com/spring-projects/spring-data-mongodb
 
+https://github.com/spring-projects/spring-data-mongodb/issues/4510

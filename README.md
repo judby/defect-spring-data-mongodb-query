@@ -1,5 +1,5 @@
 # defect-spring-data-mongodb-query
-Simple testcase for at bug in spring-data-mongodb QueryMapper with annotations and PropertyValueConverter
+Simple testcase for a query bug in spring-data-mongodb `QueryMapper` with annotations and `PropertyValueConverter`.
 
 The `@LocalDateAsString` annotation is used on selected `LocalDate` fields to have them mapped to `string` in mongo.
 

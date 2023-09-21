@@ -7,7 +7,7 @@ The `LocalDateToStringPropertyConverter` simply converts to/from `String`/`Local
 
 Everything is fine with mapping and simple queries but with eg "range" queries the `QueryMapper` calls the converter with a bson `Document` which obviously fails with a `ClassCastException`.
 
-Testcase: `SpringDefectInQueryMapperTest`
+Testcase: [`SpringDefectInQueryMapperTest`](https://github.com/judby/defect-spring-data-mongodb-query/blob/main/src/test/java/com/udby/defect/spring/data/mongodb/converter/query/simple/SpringDefectInQueryMapperTest.java)
 
 spring-boot version 3.0.11
 spring-data-mongodb version 4.0.10
